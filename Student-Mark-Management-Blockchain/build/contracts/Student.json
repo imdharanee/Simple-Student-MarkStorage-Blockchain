@@ -1,0 +1,149 @@
+{
+  "contractName": "Student",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.16+commit.07a7930e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Student.sol\":\"Student\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Student.sol\":{\"keccak256\":\"0x8a3ebade6f843ecf71a429d5034919fe2313006ec7c754c991ab4812ecb4c361\",\"urls\":[\"bzz-raw://bab20de5ebebe8e0bdd32245baa8dcd987879fcadd29f296a3918b8a83535009\",\"dweb:/ipfs/QmVqHUokkYfMnG9HB6xypZA9T4H6ZK2vcwVP6jYX9AWYbS\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220bbc9fc8b571280fc293bcb7c9a05f8ba6c07c167d09707671b1a7249c2e40c6764736f6c63430008100033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220bbc9fc8b571280fc293bcb7c9a05f8ba6c07c167d09707671b1a7249c2e40c6764736f6c63430008100033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "28:92:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "28:92:0:-:0;;;;;",
+  "source": "pragma solidity ^0.8.16;\r\n\r\ncontract Student {\r\n    struct Mark {\r\n        uint256 score;\r\n        bool isSet;\r\n    }\r\n}\r\n",
+  "sourcePath": "C:\\Users\\ADMIN\\Desktop\\OnlinerationingWeb3\\contracts\\Student.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Student.sol",
+    "exportedSymbols": {
+      "Student": [
+        7
+      ]
+    },
+    "id": 8,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Student",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 7,
+        "linearizedBaseContracts": [
+          7
+        ],
+        "name": "Student",
+        "nameLocation": "37:7:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Student.Mark",
+            "id": 6,
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "mutability": "mutable",
+                "name": "score",
+                "nameLocation": "83:5:0",
+                "nodeType": "VariableDeclaration",
+                "scope": 6,
+                "src": "75:13:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "75:7:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "mutability": "mutable",
+                "name": "isSet",
+                "nameLocation": "104:5:0",
+                "nodeType": "VariableDeclaration",
+                "scope": 6,
+                "src": "99:10:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "99:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Mark",
+            "nameLocation": "59:4:0",
+            "nodeType": "StructDefinition",
+            "scope": 7,
+            "src": "52:65:0",
+            "visibility": "public"
+          }
+        ],
+        "scope": 8,
+        "src": "28:92:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:122:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.16+commit.07a7930e.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x35524AB0057E6165C686ea3Bf4e14eb399b1C49c",
+      "transactionHash": "0xc65f692eb20488365a0b54b646299dbd51cbac1586115309381cded6900c46cc"
+    }
+  },
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-02-23T11:56:48.266Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
